@@ -6,4 +6,6 @@ author:
   name: Adeyemi Temitope Adejare
  #email: "your-email@example.com"
   #url: "https://your-website.com"
-theme: minima
+
+# Configuration for Jekyll theme (Example: Minimal Mistakes)
+theme: minimal-mistakes-jekyll
