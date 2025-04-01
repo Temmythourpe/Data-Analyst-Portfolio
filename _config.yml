@@ -8,4 +8,4 @@ author:
   #url: "https://your-website.com"
 
 # Configuration for Jekyll theme (Example: Minimal Mistakes)
-theme: minimal-mistakes-jekyll
+theme: minima
