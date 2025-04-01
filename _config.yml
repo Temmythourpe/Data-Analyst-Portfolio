@@ -1,1 +1,9 @@
+# _config.yml
 
+title: Sustainability & Environmental Analyst
+description: Welcome to my Data Analyst Portfolio! Explore my work, projects, and skills in data analysis, visualization, and insights.
+#author:
+  #name: "Your Name"
+ #email: "your-email@example.com"
+  #url: "https://your-website.com"
+theme: minima
