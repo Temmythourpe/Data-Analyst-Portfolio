@@ -2,9 +2,11 @@
 
 title: Sustainability & Environmental Analyst
 description: Welcome to my Data Analyst Portfolio! Explore my work, projects, and skills in data analysis, visualization, and insights.
-name: Adeyemi Temitope Adejare
-email: adejare.yemi@outlook.com
-url: https://temmythourpe.github.io/portfolio
 
+# Define navigation links
+navigation:
+  - title: Coca-Cola USA Retailer Dataset
+    url: https://1drv.ms/x/c/f0c0e45f4d094374/IQT81J-VzFycToICJ7mlBsRCAVsokwdVAbfLxMmdGyvtxz4?em=2&AllowTyping=True&ActiveCell='Dashboard'!B1&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True
+  
 # Configuration for Jekyll theme (Example: Minimal Mistakes)
 theme: jekyll-theme-minimal
