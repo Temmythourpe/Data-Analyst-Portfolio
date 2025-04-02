@@ -8,4 +8,4 @@ description: Welcome to my Data Analyst Portfolio! Explore my work, projects, an
   #äurl: https://temmythourpe.github.io/portfolio/
 
 # Configuration for Jekyll theme (Example: Minimal Mistakes)
-theme: minima
+theme: jekyll-theme-minimal
