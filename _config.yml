@@ -2,7 +2,7 @@
 
 title: Adeyemi Adejare
 description: Welcome to my Data Analyst Portfolio! Explore my work, projects, and skills in data analysis, visualization, and insights.
-
+logo: /main/photo_circle.png
 # Define navigation links
 navigation:
   - title: Coca-Cola USA Retailer Dataset
