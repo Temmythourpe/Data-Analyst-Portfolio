@@ -28,8 +28,7 @@ a,
 
 /* DESKTOP NAV */
 
-nav,
-.nav-links {
+nav, .nav-links {
   display: flex;
 }
 
