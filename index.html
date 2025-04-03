@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-
-    <!-- Fixed link tags: added closing /> -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -31,7 +29,6 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <!-- Added <ul> for menu-links -->
                 <ul>
                     <li><a href="#about" onclick="toggleMenu()">About</a></li>
                     <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
@@ -52,7 +49,8 @@
             <h1 class="title">Adeyemi Temitope Adejare</h1>
             <p class="section__text__p2">Sustainability & Environmental Analyst</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="location.href='https://flowcv.com/resume/s40br0s3l66l'">
+                <!-- Added target="_blank" to open in a new tab -->
+                <button class="btn btn-color-2" onclick="window.open('https://flowcv.com/resume/s40br0s3l66l', '_blank')">
                     Download CV
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -60,10 +58,12 @@
                 </button>
             </div>
             <div id="socials-container">
+                <!-- LinkedIn with target="_blank" to open in a new tab -->
                 <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-                    onclick="location.href='https://www.linkedin.com/in/adejareadeyemi19/'" />
+                    onclick="window.open('https://www.linkedin.com/in/adejareadeyemi19/', '_blank')" />
+                <!-- Github with target="_blank" to open in a new tab -->
                 <img src="./assets/github.png" alt="My Github profile" class="icon"
-                    onclick="location.href='https://github.com/Temmythourpe'" />
+                    onclick="window.open('https://github.com/Temmythourpe', '_blank')" />
             </div>
         </div>
     </section>
@@ -145,10 +145,13 @@
                     </div>
                     <h2 class="experience-sub-title project-title">Project One</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/your-project'">
+                        <!-- Added target="_blank" to open in a new tab -->
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/your-project', '_blank')">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://your-live-demo-url'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://your-live-demo-url', '_blank')">
                             Live Demo
                         </button>
                     </div>
@@ -161,10 +164,13 @@
                     </div>
                     <h2 class="experience-sub-title project-title">Project Two</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/your-project'">
+                        <!-- Added target="_blank" to open in a new tab -->
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/your-project', '_blank')">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://your-live-demo-url'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://your-live-demo-url', '_blank')">
                             Live Demo
                         </button>
                     </div>
@@ -180,12 +186,14 @@
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
+                <!-- Email with target="_blank" to open in a new tab -->
                 <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+                <p><a href="mailto:examplemail@gmail.com" target="_blank">Example@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
+                <!-- LinkedIn with target="_blank" to open in a new tab -->
                 <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+                <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
             </div>
         </div>
     </section>
